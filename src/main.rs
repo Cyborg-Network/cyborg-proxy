@@ -48,7 +48,7 @@ async fn handle_connection(stream: tokio::net::TcpStream) {
                 };
 
                 // Connect to the target backend WebSocket
-                let target_url = format!("ws://{}:120", proxy_message.target_ip);
+                let target_url = format!("ws://{}:8081", proxy_message.target_ip);
                 let backend_ws = match connect_async(&target_url).await {
                     Ok((backend_ws, _)) => backend_ws,
                     Err(e) => {
