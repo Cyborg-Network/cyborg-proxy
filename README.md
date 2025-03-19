@@ -23,7 +23,7 @@ To build and run this application you will need to have the rust toolchain insta
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+$ git clone https://github.com/Cyborg-Network/cyborg-proxy
 
 # Go into the repository
 $ cd cyborg-proxy
